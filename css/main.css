@@ -43,7 +43,7 @@ body {
 /* SEARCH BAR */
 
 #searchBar {
-    width: 12.5%;
+    width: 200px;
     border-radius: 10px;
     transition: 0.5s;
     font-size: 18px;
