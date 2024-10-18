@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kezdőlap</title>
+    <title>Esszék</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/x-icon" href="src/journals.svg">
 
@@ -14,14 +14,30 @@
 
     <!-- PAGE SELECTOR START -->
 
-    <div class="page-selector">
+    <!-- <div class="page-selector">
 
-        <a href="/essays.html" class="page-link">Esszék</a>
-        <a href="/terms.html" class="page-link">Fogalmak</a>
+        <a href="essays.html" class="page-link">Esszék</a>
+        <a href="terms.html" class="page-link">Fogalmak</a>
 
-    </div>
+    </div> -->
 
     <!-- PAGE SELECTOR END -->
+
+    <!-- SEARCH BAR START | HAMBURGER MENU -->
+
+    <nav class="navbar">
+
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          
+        <input type="text" name="searchBar" id="searchBar" placeholder="Search here...">
+
+    </nav>
+
+    <!-- SEARCH BAR END -->
     
     <script src="js/script.js"></script>
 
