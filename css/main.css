@@ -43,7 +43,7 @@ body {
 /* SEARCH BAR */
 
 #searchBar {
-    width: 200px;
+    width: 250px;
     border-radius: 10px;
     transition: 0.5s;
     font-size: 18px;
@@ -100,3 +100,13 @@ body {
   }
    
 /* HAMBURGER MENU BUTTON END */
+
+/* MEDIA QUERY SETTINGS */
+
+@media only screen and (max-width: 600px) {
+    #searchBar {
+        width: 150px;
+    }
+}
+
+/* MEDIA QUERY SETTINGS END */
