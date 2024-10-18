@@ -20,12 +20,6 @@ body {
     background-color: var(--backgroundColor);
 }
 
-a:focus, a:active {
-    outline: none;
-    border: 1px solid transparent;
-    box-shadow: none;
-}
-
 .page-link {
     text-decoration: none;
     font-family: "Ms Madi", cursive;
@@ -44,6 +38,13 @@ a:focus, a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+    position: absolute;
+    transition: 0.8s;
+}
+
+.inactive {
+    transform: translateY(-100%);
 }
 
 /* SEARCH BAR */
@@ -57,6 +58,7 @@ a:focus, a:active {
     background-color: var(--controlColor);
     border: 2px solid var(--textColor);
     color: var(--backgroundColor);
+    z-index: 1;
 }
 
 #searchBar::placeholder {
@@ -78,13 +80,14 @@ a:focus, a:active {
     justify-content: space-between;
 }
 
-/* NAVBAR END*/
+/* NAVBAR END*/ 
 
 /* HAMBURGER MENU BUTTON START */
 
 .container {
     display: inline-block;
     cursor: pointer;
+    z-index: 3;
   }
   
   .bar1, .bar2, .bar3 {
