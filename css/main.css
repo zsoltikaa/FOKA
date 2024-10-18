@@ -23,6 +23,7 @@
     font-size: 72px;
     letter-spacing: 10px;
     margin: 25px 0;
+    text-shadow: 2px 5px var(--controlColor);
 }
 
 .page-selector {
