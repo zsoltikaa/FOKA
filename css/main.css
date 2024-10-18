@@ -20,6 +20,12 @@ body {
     background-color: var(--backgroundColor);
 }
 
+a:focus, a:active {
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
 .page-link {
     text-decoration: none;
     font-family: "Ms Madi", cursive;
